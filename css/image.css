@@ -1,0 +1,31 @@
+
+
+.card_container{
+    display: flex;
+    flex-direction: row;
+
+  
+    gap: 20px;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    
+    
+}
+
+/*
+
+this is a comment
+img{
+
+    width: 30%;
+    height: 200px;
+    border-radius: 30px;
+    border-radius: 10%;
+    border-color: blue;
+    border-style: dashed;
+    border-end-end-radius: 100%;
+    border-top-right-radius: 50%;
+
+}
+
+*/

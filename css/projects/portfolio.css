@@ -1,0 +1,126 @@
+*{
+    background-color: black;
+    color: white;
+    max-width: 958px;
+    
+
+}
+
+.header_conatiner{
+    margin: 20px;
+    padding: 10px;
+}
+
+.image_bio_container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+ 
+    align-items: center;
+    
+}
+
+.image_container{
+    width: 50%;
+    text-align: center;
+ 
+}
+
+.image{
+    border-radius: 50%;
+    width: 50%;
+}
+
+.bio_container{
+    width: 80%;
+}
+
+.bio_container > .heading{
+    font-size: 40px;
+    color: rgb(192, 185, 185);
+  
+}
+
+
+.bio_text{
+    font-size: 20px;
+    color: rgb(180, 172, 172);
+
+    font-family: sans-serif;
+
+}
+
+
+.email{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.social-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+ 
+    
+}
+
+#social-link{
+    
+    font-size: 20px;
+    color: gray;
+
+}
+
+#social-link > a {
+    text-decoration: none;  
+    color: rgb(190, 181, 181);
+
+}
+
+.skils_header{
+    font-size: 30px;
+}
+
+.skils_container{
+    width: 950px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.skils_list{
+    font-size: 18px;
+    list-style: none;
+    line-height: 1.8;
+}
+
+
+.stack_container{
+    width: 950px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.stack_header{
+    font-size: 30px;
+
+}
+
+.stack_list{
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.stack_list > li{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+

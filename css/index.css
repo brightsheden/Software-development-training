@@ -1,0 +1,21 @@
+.heading{
+    font-size:50px; 
+
+    font-family: "Rubik Mono One", monospace;
+}
+
+p{
+    font-weight: italics;
+    font-size:50px;
+    color:	#f77f00;
+    background:#03045e;
+    text-transform:lowercase;
+    padding:10px;
+    text-decoration-line: underline;
+    text-align:center;
+    word-spacing:20px;
+    line-height: 2.8;
+    font-family: "Briem Hand"
+
+  
+}
