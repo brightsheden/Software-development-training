@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav_links_container > ul{
+    display: flex;
+   justify-content: space-around !important;
+   gap: 30px;
+}
+
+.nav_links_container > ul>li{
+    list-style: none;
+}
+
+.nav_links_container > ul>li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_links_container > ul>li > a:hover {
+    text-decoration: none;
+    color: hsl(35, 77%, 62%);
+}
+
+
+
+.content_container{
+display: flex;
+
+   
+}
+
+.content_right_container{
+    width: 60%;
+    margin-right: 20px;
+  
+
+}
+
+.content_right_image_container{
+   
+
+ 
+}
+
+.content_right_image_conatiner > img{
+    width: 100% !important;
+   
+
+  
+}
+
+.content_right_text-wrapper{
+ display: flex;
+ justify-content: space-between;
+}
+
+.content_right_title_conatiner{
+ 
+    width: 50%;
+}
+.content_right_title_conatiner > h2{
+    font-size: 40px;
+
+}
+
+.content_right_text_conatiner{
+    
+    width: 50%;
+}
+
+.content_right_text_conatiner >p{
+    font-size: 15px;
+    color: Grayish hsl(233, 8%, 79%);
+    margin-bottom: 20px;
+}
+
+
+.content_right_text_conatiner > button{
+    color: black;
+    background-color: hsl(5, 85%, 63%);
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content_right_text_conatiner > button:hover{
+    color:white;
+    background-color: hsl(240, 100%, 5%);
+
+}
+
+
+.content_left_container{
+    width: 40%;
+    background-color: hsl(240, 100%, 5%);
+    padding: 25px;
+
+}
+
+.content_left_heading_text{
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 20px;
+}
+
+.content_left_card{
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+.content_left_card >h2{
+    margin-bottom: 10px;
+}
+
+.content_left_card > p{
+    color: hsl(233, 8%, 79%);
+}
+
+hr{
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 10px;
+}
+
+.card_container{
+    display: flex;
+    margin-top: 30px;
+   gap: 30px;
+}
+
+.card{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+ 
+}
+
+.card_content_number{
+    font-size: 30px;
+    color:  hsl(5, 85%, 63%);
+
+}
+
+.card_content_heading{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.card_content_text{
+    font-size: 14px;
+    color: hsl(236, 13%, 42%);
+    margin-top: 30px;
+    width: 200px;
+
+}
+
+.card_image{
+    width: 100%;
+    height: 200px;
+}
+
+
