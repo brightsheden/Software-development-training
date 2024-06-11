@@ -270,5 +270,132 @@ for(let n=1; n<21; n++){
         
 }
 
+//function: line of code that perfrom a particular task
+
+function the_name (){
+    //ur code
+    
+    return console.log('Say hello')
+}
+
+the_name()
 
 
+function add (){
+    let num1 = 20
+    let num2 = 40
+    let total = num1 + num2
+    console.log(total)
+}
+
+add()
+
+function subtraction(value1,value2){
+    let diff = value1-value2
+    console.log('this is the difference: ',diff)
+}
+
+subtraction(70,20)
+
+let runfunction =greeting('Zionsystem')
+document.getElementById('demo').innerHTML=runfunction
+
+function greeting(name){
+    
+    return("Hello "+ name);
+}
+
+
+//javascript scope
+//Local and global
+
+
+
+var schoolName = 'Zion academy'
+
+callSchool()
+
+function callSchool(){
+    document.getElementById('demo').innerHTML=schoolName
+}
+
+
+
+// Advance  Javascript Object 
+
+var laptop = {
+    "name":'hp laptop',
+    "ram":'8gb',
+    "rom":"500gb",
+    "os":"Window 10"
+}
+
+console.log(laptop)
+
+document.getElementById('demo').innerHTML=laptop.os
+
+//add properties
+laptop.color = 'yellow'
+laptop.size = '16inch'
+console.log(laptop)
+
+var objvalue = {}
+objvalue.name='olamide'
+objvalue.age='24'
+objvalue.school='ssu'
+console.log(objvalue)
+
+
+var objectValue = new Object()
+objvalue.name='Danchare'
+objvalue.age='40'
+objvalue.school='ssu'
+console.log(objvalue)
+
+
+// object method(function)
+
+var system ={
+    "name":'hp laptop',
+    "ram":'8gb',
+    "rom":"500gb",
+    "os":"Window 10",
+
+    turn_on: function(){
+        console.log('system on')
+    },
+
+    turn_off: function(){
+        console.log('system off')
+    }
+
+}
+
+system.turn_on()
+
+delete system.name
+console.log(system)
+
+
+// Nested Objects
+
+
+var product_ = {
+    "name":"iphone",
+    "color":"green",
+    greet:function(){
+        return this.name +" "+ this.color
+    },
+    category:{
+    "name":"Tech",
+    "id":"green",
+
+    }
+    
+}
+
+console.log(product_.greet())
+
+
+const new_Arr = ['name','ola']
+console.log(new_Arr)
