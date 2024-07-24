@@ -1,6 +1,7 @@
 import React from "react";
 import './home.css'
 import Navbar from './Navbar'
+import Hook from "./Hook";
 
 
 const Home = ()=>{
@@ -24,6 +25,10 @@ const Home = ()=>{
                     <span>Java</span>
                     <span>Java</span>
                 </div>
+            </section>
+
+            <section>
+                <Hook/>
             </section>
 
 
