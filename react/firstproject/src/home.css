@@ -1,0 +1,20 @@
+*{
+
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.header-name{
+    font-size: 40px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+#header-id{
+    border: 10px solid red;
+    padding: 4px;
+}

@@ -1,0 +1,55 @@
+
+
+.navbar-container{
+    background-color: #3F612D !important;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between !important;
+    list-style: none;
+}
+
+.links > li{
+    margin-right: 20px;
+}
+
+.brand-search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.brand-name{
+    font-size: 30px;
+    font-weight: 50px;
+}
+
+form {
+    padding: 10px;
+}
+
+form > input{
+    padding: 10px;
+    outline: none;
+    border-radius: 1px;
+    border: none;
+    color:black;
+}
+
+
+form > button{
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(23, 23, 116);
+}

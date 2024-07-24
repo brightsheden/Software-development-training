@@ -1,0 +1,83 @@
+Sure, let's go through these string methods in JavaScript, explaining each one with examples and sample code.
+
+### String Length
+The `length` property returns the length of a string.
+
+```javascript
+let str = "Hello, World!";
+console.log(str.length); // Outputs: 13
+```
+Here, the string `"Hello, World!"` has 13 characters, including punctuation and spaces.
+
+### String `charAt()`
+The `charAt()` method returns the character at a specified index in a string.
+
+```javascript
+let str = "Hello, World!";
+console.log(str.charAt(0)); // Outputs: H
+console.log(str.charAt(7)); // Outputs: W
+```
+`charAt(0)` returns the first character of the string, and `charAt(7)` returns the eighth character.
+
+### String `charCodeAt()`
+The `charCodeAt()` method returns the Unicode of the character at a specified index in a string.
+
+```javascript
+let str = "Hello, World!";
+console.log(str.charCodeAt(0)); // Outputs: 72
+console.log(str.charCodeAt(7)); // Outputs: 87
+```
+`charCodeAt(0)` returns 72, which is the Unicode for 'H', and `charCodeAt(7)` returns 87, which is the Unicode for 'W'.
+
+### String `at()`
+The `at()` method returns the character at a specified index, similar to `charAt()`, but supports negative indices to count from the end.
+
+```javascript
+let str = "Hello, World!";
+console.log(str.at(0)); // Outputs: H
+console.log(str.at(-1)); // Outputs: !
+```
+`at(0)` returns the first character, while `at(-1)` returns the last character.
+
+### String `[]`
+Using square brackets is an alternative way to access characters in a string by their index.
+
+```javascript
+let str = "Hello, World!";
+console.log(str[0]); // Outputs: H
+console.log(str[7]); // Outputs: W
+```
+This syntax is similar to `charAt()` but is more common in modern JavaScript.
+
+### String `slice()`
+The `slice()` method extracts a part of a string and returns it as a new string, without modifying the original string.
+
+```javascript
+let str = "Hello, World!";
+console.log(str.slice(0, 5)); // Outputs: Hello
+console.log(str.slice(7));    // Outputs: World!
+console.log(str.slice(-6, -1)); // Outputs: World
+```
+`slice(0, 5)` extracts characters from index 0 to 4, `slice(7)` extracts from index 7 to the end, and `slice(-6, -1)` extracts from the 6th last character to the 1st last character.
+
+### String `substring()`
+The `substring()` method extracts characters from a string, between two specified indices, and returns the new substring.
+
+```javascript
+let str = "Hello, World!";
+console.log(str.substring(0, 5)); // Outputs: Hello
+console.log(str.substring(7));    // Outputs: World!
+```
+`substring(0, 5)` extracts characters from index 0 to 4, similar to `slice()`, and `substring(7)` extracts from index 7 to the end.
+
+### String `substr()`
+The `substr()` method extracts a part of a string, starting from a specified index and extending for a given number of characters.
+
+```javascript
+let str = "Hello, World!";
+console.log(str.substr(0, 5)); // Outputs: Hello
+console.log(str.substr(7, 5)); // Outputs: World
+```
+`substr(0, 5)` extracts 5 characters starting from index 0, and `substr(7, 5)` extracts 5 characters starting from index 7.
+
+These methods allow you to manipulate and interact with strings in various ways, providing flexibility for different programming needs.
