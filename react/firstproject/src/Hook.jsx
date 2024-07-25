@@ -1,7 +1,14 @@
 import { useState } from "react"
+import ProfilePage from "./ProfilePage"
+import LoginComponent from "./LoginComponent"
 
 function Hook(){
     const [name,setName]  = useState('Olamide')
+    const [is_login, setLogin] = useState(false)
+
+    const loginFunction = ()=>{
+        setLogin(!is_login)
+    }
 
     const [counter, setCounter] = useState(5)
     const changeName = ()=>{
@@ -66,6 +73,16 @@ function Hook(){
                 
                 
             }}  onClick={decreaseCounter}>Decrease</button>
+
+            <div>
+
+             
+                {is_login && (<ProfilePage handleLogoutt={loginFunction}/>) }
+                {!is_login && (<LoginComponent handleLogin={loginFunction} />) }
+
+
+
+            </div>
         </div>
     )
 }

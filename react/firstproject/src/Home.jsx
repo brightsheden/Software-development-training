@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import './home.css'
 import Navbar from './Navbar'
 import Hook from "./Hook";
+import ProfilePage from "./ProfilePage";
+import LoginComponent from "./LoginComponent";
 
 
 const Home = ()=>{
+
+
 
     return (
 
@@ -29,6 +33,8 @@ const Home = ()=>{
 
             <section>
                 <Hook/>
+
+       
             </section>
 
 
